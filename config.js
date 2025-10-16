@@ -1,9 +1,4 @@
-// ╔╗ ╔═╗╔╗╔╔╦╗╔═╗
-// ╠╩╗║╣ ║║║ ║ ║ ║
-// ╚═╝╚═╝╝╚╝ ╩ ╚═╝
-// ┌─┐┌─┐┌┐┌┌─┐┬┌─┐┬ ┬┬─┐┌─┐┌┬┐┬┌─┐┌┐┌
-// │  │ ││││├┤ ││ ┬│ │├┬┘├─┤ │ ││ ││││
-// └─┘└─┘┘└┘└  ┴└─┘└─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘
+
 
 const CONFIG = {
 	// ┌┐ ┌─┐┌─┐┬┌─┐┌─┐
@@ -11,8 +6,8 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
-	imageBackground: false,
+	name: 'Donno',
+	imageBackground: true,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
@@ -24,16 +19,6 @@ const CONFIG = {
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
-
-	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
-
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -55,37 +40,37 @@ const CONFIG = {
 			id: '1',
 			name: 'Github',
 			icon: 'github',
-			link: 'https://github.com/',
+			link: 'https://github.com/Not-Donno',
 		},
 		{
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/mail/u/0/#inbox',
 		},
 		{
 			id: '3',
 			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			icon: 'book',
+			link: 'https://www.notion.so/Tracker-28e7d53b6e7f809591bef63c269655cf',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Linkdin',
+			icon: 'linkedIn',
+			link: 'https://linkedin.com',
 		},
 		{
 			id: '5',
 			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			icon: 'instagram',
+			link: 'https://instagram.com',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -139,44 +124,44 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Focus',
+					link: 'https://www.youtube.com/watch?v=lkkGlVWvkLk&t=702s',
 				},
 				{
 					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					link: 'https://www.youtube.com/watch?v=QjkaWADdU9w&list=RDQjkaWADdU9w',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Neural Beats',
+					link: 'https://www.youtube.com/watch?v=tAIiXRZNh9E&t=565s',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Misc',
+					link: 'https://www.youtube.com/watch?v=XjNlP3LrFiY&list=RDXjNlP3LrFiY&start_radio=1',
 				},
 			],
 		},
 		{
 			icon: 'coffee',
 			id: '2',
-			links: [
-				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
-				},
-				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
-				},
-				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
-				},
-				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
-				},
-			],
+links: [
+	{
+		name: 'Stack Overflow',
+		link: 'https://stackoverflow.com',
+	},
+	{
+		name: 'Programiz',
+		link: 'https://www.programiz.com',
+	},
+	{
+		name: 'Cloudflare',
+		link: 'https://dash.cloudflare.com',
+	},
+	{
+		name: 'Vercel',
+		link: 'https://vercel.com',
+	},
+],
 		},
 	],
 
